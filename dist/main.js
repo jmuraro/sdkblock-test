@@ -105,7 +105,7 @@
         lastname = document.getElementById('lastname').value;
         message = document.getElementById('message').value;
 
-        if(lastname === '' || firstname === '' || message === '')
+        if(lastname === '' || firstname === '')
             return;
 
         sdk.setContent(
