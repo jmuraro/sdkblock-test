@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Hello World</title>
+  </head>
+  <body>
+    <article class="slds-card my-article">
+      <div class="slds-card__header slds-grid">
+        <header class="slds-media slds-media_center slds-has-flexi-truncate">
+          <div class="slds-media__figure">
+            <span class="slds-icon_container slds-icon-standard-account" title="description of icon when needed">
+              <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                <use
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#contact"
+                />
+              </svg>
+            </span>
+          </div>
+          <div class="slds-media__body">
+            <h2>
+              <a href="javascript:void(0);" class="slds-card__header-link slds-truncate" title="[object Object]">
+                <span class="slds-text-heading_small">My SDK Block test</span>
+              </a>
+            </h2>
+          </div>
+        </header>
+      </div>
+      <div class="slds-card__body slds-card__body_inner">
+        <div id="workspace">
+          <div class="slds-form-element">
+            <label class="slds-form-element__label" for="firstname">Your firstname</label>
+            <div class="slds-form-element__control">
+              <input
+                type="text"
+                id="firstname"
+                class="slds-input"
+                placeholder="John"
+              />
+            </div>
+          </div>
+          <div class="slds-form-element">
+            <label class="slds-form-element__label" for="lastname">Your lastname</label>
+            <div class="slds-form-element__control">
+              <input
+                type="text"
+                id="lastname"
+                class="slds-input"
+                placeholder="Doe"
+              />
+            </div>
+          </div>
+          <div class="slds-form-element">
+            <label class="slds-form-element__label" for="message">Your message</label>
+            <div class="slds-form-element__control">
+              <textarea id="message" placeholder="Placeholder text…" class="slds-textarea"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="slds-card__footer">
+        For use in Salesforce Marketing Cloud block SDK demos only
+      </footer>
+    </article>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
